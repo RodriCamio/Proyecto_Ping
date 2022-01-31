@@ -91,7 +91,7 @@ while True:
                 filas.append(['Cam '+str(i), 'S/F'])
                 reg_sale()
                 filas = []
-        print('{verde}Datos exportados con exito!{blanco}')
+        print(f'{verde}Datos exportados con exito!{blanco}')
         tecla_cualquiera('continuar')        
     elif opcion == '6':
         print("\nCerrando...")

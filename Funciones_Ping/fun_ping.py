@@ -84,9 +84,7 @@ def tirar_ping():
             else:
                 print(f'{blanco}Cam '+str(i)+f' = {rojo} S/F{blanco}')
                 lista_negativos.append(i)
-        rut = os.getcwd()+ "pines fijas.txt"
-        if path.exists(f"{rut}"):
-            remove(f'{rut}')
+
     return (lista_positivos, lista_negativos)
 
 def tirar_ping_domos():
@@ -116,9 +114,6 @@ def tirar_ping_domos():
                 else:
                     print(f'{blanco}Cam 3'+str(i)+f' = {rojo} S/F{blanco}')
                     lista_negativos.append('3'+str(i))
-        rut = os.getcwd()+ "pines domos.txt"
-        if path.exists(f"{rut}"):
-            remove(f'{rut}')
     return (lista_positivos, lista_negativos)
 
 ####################__Juntar Listas__####################
