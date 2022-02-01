@@ -18,3 +18,8 @@ def reg_sale():
         for f in filas:
             ws.append(f)
         wb.save(f"{ruta}Registro {fecha}.xlsx")
+        
+        
+'''
+Aca hay mucho por terminar todavia, tengo que aprender de nuevo openxlpy, darle formato a la tabla, que tome bien los valores, etc.
+'''
